@@ -1,0 +1,9 @@
+# cook your dish here
+T=int(input())
+for i in range(T):
+    friends,rupee,total=map(int,input().split())
+    spend = friends*rupee
+    if(spend>total):
+        print("NO")
+    else:
+        print("YES")
