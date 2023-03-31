@@ -1,0 +1,6 @@
+# cook your dish here
+n = int(input())
+for x in range(n):
+    # TODO: write code...
+    rep = int(input())*15
+    print(rep)
