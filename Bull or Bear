@@ -1,0 +1,10 @@
+# cook your dish here
+T=int(input())
+for i in range(T):
+    a,b = map(int,input().split())
+    if a>b:
+        print("LOSS")
+    elif b>a:
+        print("PROFIT")
+    else:
+        print("NEUTRAL")
