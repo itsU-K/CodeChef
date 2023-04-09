@@ -1,0 +1,7 @@
+# cook your dish here
+money = int(input())
+a,b = map(int,input().split())
+if a+b <= money:
+    print("YES")
+else:
+    print("NO")
