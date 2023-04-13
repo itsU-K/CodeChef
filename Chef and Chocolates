@@ -1,0 +1,7 @@
+# cook your dish here
+for i in range(int(input())):
+    a,b,c = map(int,input().split())
+    five = a*5
+    ten = b*10
+    total = five+ten
+    print(total//c)
